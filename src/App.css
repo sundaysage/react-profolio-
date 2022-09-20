@@ -1,0 +1,134 @@
+:root {
+  --color-bg: #1f1f38;
+  --color-bg-variant: #2c2c6c;
+  --color-primary: #4db5ff;
+  --color-primary-variant: rbga(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light-green: rgb(91, 229, 209);
+}
+.introDiv {
+  text-align: center;
+}
+.flexCV a {
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 5px;
+  animation: bigin 4s ease-in-out;
+}
+.flexCV :hover {
+  background-color: var(--color-bg-variant);
+  box-shadow: 0px 0px 12px 0px;
+}
+.meimg {
+  width: 70%;
+  border-radius: 10px;
+}
+.mediv {
+  margin-top: 10px;
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.Aboutme {
+  text-align: center;
+}
+.divme {
+  width: 100%;
+}
+
+.me2 {
+  width: 70%;
+  border-radius: 20px;
+}
+.aboutbox {
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+.aboutboxs {
+  border: 0.5px solid;
+  border-radius: 30px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: var(--color-bg-variant);
+}
+.aboutboxs:hover {
+  transform: translateX(30px);
+  animation: ease-in-out 5s;
+}
+
+.ulskill {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ulskill li {
+  font-size: smaller;
+  margin: 5px;
+  border: 1px solid;
+  list-style-type: none;
+  background-color: var(--color-bg-variant);
+  border-radius: 20px;
+}
+.ulskill li:hover {
+  background-color: var(--color-primary);
+  box-shadow: 0px 0px 13px 0px;
+}
+
+.Contactme {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  animation-name: flowin;
+  animation-duration: 4s;
+  animation: flowin 3s ease-out;
+}
+.Contactme div {
+  border: 1px solid;
+  margin: 10px;
+  padding: 5px;
+  background-color: var(--color-bg-variant);
+  border-radius: 20px;
+}
+@keyframes flowin {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes bigin {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

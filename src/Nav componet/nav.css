@@ -1,0 +1,37 @@
+li {
+  list-style-type: none;
+}
+nav {
+  border-radius: 10px;
+  width: 50%;
+  justify-content: space-around;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  /* background-color: transparent; */
+  border: 1px solid;
+  margin-left: 25%;
+  animation: 4s rollin ease-in-out
+}
+nav li a {
+  padding: 3px;
+  border-radius: 4px;
+}
+nav li :hover {
+  background-color: rgb(0, 213, 255);
+  color: black;
+}
+
+@keyframes rollin{
+  0%{
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: rotate(280deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
