@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
-import Meimg from "./assets/me pics.jpeg"
-import me2 from "./assets/me 3.jpeg"
+import Meimg from "./assets/me pics.jpeg";
+import me2 from "./assets/me 3.jpeg";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
           <a href="mailto:semenike60@gmail.com">Let's Talk</a>
         </div>
         <div className="mediv">
-          <img className="meimg" src={Meimg} alt/>
+          <img className="meimg" src={Meimg} alt />
         </div>
       </div>
       <div className="Aboutme">
@@ -102,6 +102,12 @@ const App = () => {
             </a>
           </div>
         </div>
+      </div>
+
+      <div class="otherlinks">
+        <h2>Other Links</h2>
+        <a href="https://meta-kitties.netlify.app/">meta-kitties</a>
+        <a href="https://fiverrcloner.netlify.app/">fiverrclone</a>
       </div>
     </div>
   );

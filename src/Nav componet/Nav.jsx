@@ -6,7 +6,7 @@ const Nav = () => {
     <div className="">
       <nav>
         <li>
-          <a href="#">Hogitme</a>
+          <a href="#">Home</a>
         </li>
         <li>
           <a href="https://github.com/sundaysage">Github</a>

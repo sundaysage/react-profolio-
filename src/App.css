@@ -132,3 +132,9 @@ a {
     transform: translate(0);
   }
 }
+
+.otherlinks{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
