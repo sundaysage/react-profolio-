@@ -104,7 +104,7 @@ const App = () => {
         </div>
       </div>
 
-      <div class="otherlinks">
+      <div className="otherlinks">
         <h2>Other Links</h2>
         <a href="https://meta-kitties.netlify.app/">meta-kitties</a>
         <a href="https://fiverrcloner.netlify.app/">fiverrclone</a>
