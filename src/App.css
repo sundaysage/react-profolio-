@@ -133,7 +133,8 @@ a {
   }
 }
 
-.otherlinks{
+.otherlinks {
+  text-align: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 60px;
