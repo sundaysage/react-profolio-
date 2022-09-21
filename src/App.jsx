@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
-import Meimg from "./assets/me pics.jpeg";
-import me2 from "./assets/me 3.jpeg";
+import Meimg from "./assets/me pics-min.jpeg";
+import me2 from "./assets/me 3-min.jpeg";
 
 const App = () => {
   return (
